@@ -1,0 +1,19 @@
+{
+    "name": "caden/framework",
+    "description": "A simple PHP framework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Caden\\Framework\\": "framework/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cgrant992",
+            "email": "caden.grant@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^6.3"
+    }
+}
